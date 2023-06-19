@@ -1,0 +1,44 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery_img {
+    width: 300px;
+    height: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.slider_container {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider {
+    height: 400px;
+    width: 1200px;
+    display: flex;
+    position: relative;
+    left: 0;
+    /*нужно прописывать начальное значение, чтобы transition правильно сработал*/
+    transition: all ease 1s;
+}
+
+.btn_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: lightblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+}
